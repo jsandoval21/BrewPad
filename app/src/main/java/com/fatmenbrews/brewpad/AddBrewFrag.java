@@ -68,10 +68,10 @@ public class AddBrewFrag extends Fragment {
                     fragment = new FermentablesFrag();
                     break;
                 case 2:
-                    fragment = new HopsFrag();
+                    fragment = new MashFrag();
                     break;
                 case 3:
-                    fragment = new MashFrag();
+                    fragment = new HopsFrag();
                     break;
                 case 4:
                     fragment = new YeastFrag();

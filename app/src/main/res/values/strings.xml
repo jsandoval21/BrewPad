@@ -9,4 +9,42 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- Brew Details Tab -->
+    <string name="brew_name">Brew Name</string>
+    <string name="brew_name_hint">Enter Brew Name</string>
+    <string name="brew_style">Brew Style</string>
+    <string-array name="brew_style_list">
+        <item>Select Style</item>
+        <item>IPA</item>
+        <item>Pilsner</item>
+        <item>Porter</item>
+        <item>Stout</item>
+        <item>Barleywine</item>
+    </string-array>
+    <string name="brew_method">Brew Metod</string>
+    <string-array name="brew_metod_list">
+        <item>Select Method</item>
+        <item>Extract Brewing</item>
+        <item>Extract w/ Specialty Grains</item>
+        <item>All Grain</item>
+    </string-array>
+    <string name="batch_size">Batch Size</string>
+    <string name="efficiency">Efficiency</string>
+    <string name="pre_boil_size">Pre-Boil Size</string>
+    <string name="post_boil_size">Post-Boil Size</string>
+
+    <!-- Units -->
+    <string name="units_text">Units</string>
+    <string-array name="volume_list">
+        <item>gal</item>
+        <item>L</item>
+    </string-array>
+    <string-array name="weight_list">
+        <item>lb</item>
+        <item>oz</item>
+        <item>kg</item>
+        <item>g</item>
+    </string-array>
+
 </resources>

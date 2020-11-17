@@ -23,7 +23,7 @@
         <item>Barleywine</item>
     </string-array>
     <string name="brew_method">Brew Metod</string>
-    <string-array name="brew_metod_list">
+    <string-array name="brew_method_list">
         <item>Select Method</item>
         <item>Extract Brewing</item>
         <item>Extract w/ Specialty Grains</item>

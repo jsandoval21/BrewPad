@@ -27,6 +27,8 @@ public class AddBrewFrag extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.add_brew_fragment, container, false);
+
+
         return view;
     }
 
@@ -34,6 +36,7 @@ public class AddBrewFrag extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         viewPager = view.findViewById(R.id.tab_pager);
+        viewPager.setOffscreenPageLimit(6);
         pagerAdapter = new TabSlidePagerAdapter(this);
         viewPager.setAdapter(pagerAdapter);
 

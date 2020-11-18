@@ -19,7 +19,7 @@
         android:layout_margin="16dp"
         app:layout_anchor="@id/fermentables_recycler_view"
         app:srcCompat="@android:drawable/ic_input_add"
-        app:layout_anchorGravity="right|bottom">
+        app:layout_anchorGravity="right|bottom|end">
     </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
 

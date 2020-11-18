@@ -47,4 +47,14 @@
         <item>g</item>
     </string-array>
 
+    <!-- Add Fermentables Tab -->
+    <string name="amount_hint">Amount</string>
+    <string-array name="list_of_fermentables">
+        <item>2 Row</item>
+        <item>Munich</item>
+        <item>Chocolate</item>
+        <item>Pilsner</item>
+    </string-array>
+    <string name="bill_percent_text">Bill %</string>
+
 </resources>

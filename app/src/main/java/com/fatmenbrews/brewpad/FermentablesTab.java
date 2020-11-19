@@ -22,7 +22,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.widget.ViewPager2;
 
-public class FermentablesFrag extends Fragment {
+public class FermentablesTab extends Fragment {
 
     private RecyclerView mFermentablesRecyclerView;
     private FermentablesAdapter mAdapter;

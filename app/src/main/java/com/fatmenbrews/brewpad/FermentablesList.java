@@ -35,7 +35,7 @@ public class FermentablesList {
         return mFermentables;
     }
 
-    public Fermentable getBrew(UUID id){
+    public Fermentable getFermentable(UUID id){
         for(Fermentable fermentable : mFermentables){
             return fermentable;
         }

@@ -47,6 +47,8 @@
         <item>g</item>
     </string-array>
 
+    <string name="min_text">Min</string>
+
     <!-- Add Fermentables Tab -->
     <string name="amount_hint">Amount</string>
     <string-array name="list_of_fermentables">
@@ -56,5 +58,31 @@
         <item>Pilsner</item>
     </string-array>
     <string name="bill_percent_text">Bill %</string>
+
+    <!-- Add Hops Tab -->
+    <string-array name="hop_variety">
+        <item>Cascade</item>
+        <item>Columbus</item>
+        <item>Centennial</item>
+        <item>Simcoe</item>
+    </string-array>
+
+    <string name="AA_hint">AA</string>
+    <string name="bill_percent">100%</string>
+    <string name="time_hint">Time</string>
+    <string-array name="hop_type">
+        <item>Pellet</item>
+        <item>Whole</item>
+        <item>Extract</item>
+    </string-array>
+
+    <string-array name="hop_use">
+        <item>Mash</item>
+        <item>First Wort</item>
+        <item>Boil</item>
+        <item>Dry Hop</item>
+    </string-array>
+
+    <string name="ibu_text">IBU</string>
 
 </resources>

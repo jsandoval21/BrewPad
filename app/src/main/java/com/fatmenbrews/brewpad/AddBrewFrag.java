@@ -10,7 +10,6 @@ import com.google.android.material.tabs.TabLayoutMediator;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 import androidx.viewpager2.widget.ViewPager2;
 
@@ -68,19 +67,19 @@ public class AddBrewFrag extends Fragment {
                     fragment = new BrewDetailsFrag();
                     break;
                 case 1:
-                    fragment = new FermentablesFrag();
+                    fragment = new FermentablesTab();
                     break;
                 case 2:
-                    fragment = new MashFrag();
+                    fragment = new MashTab();
                     break;
                 case 3:
-                    fragment = new HopsFrag();
+                    fragment = new HopsTab();
                     break;
                 case 4:
-                    fragment = new YeastFrag();
+                    fragment = new YeastTab();
                     break;
                 case 5:
-                    fragment = new WaterProfileFrag();
+                    fragment = new WaterProfileTab();
                     break;
             }
 
